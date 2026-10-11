@@ -41,13 +41,13 @@ int main() {
 
     printf("\n--- Truth Table Results ---\n");
     
-    // البوابات الأساسية (Basic Gates)
+    // (Basic Gates)
     printf("AND Gate  (%d AND %d)  = %d\n", a, b, a & b);
     printf("OR Gate   (%d OR %d)   = %d\n", a, b, a | b);
     printf("NOT Gate  (NOT %d)     = %d\n", a, !a);
     printf("NOT Gate  (NOT %d)     = %d\n", b, !b);
 
-    // البوابات المشتقة (Derived Gates)
+    //  (Derived Gates)
     printf("NAND Gate (%d NAND %d) = %d\n", a, b, !(a & b));
     printf("NOR Gate  (%d NOR %d)  = %d\n", a, b, !(a | b));
     printf("XOR Gate  (%d XOR %d)  = %d\n", a, b, a ^ b);
